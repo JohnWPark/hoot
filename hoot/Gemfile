@@ -9,9 +9,13 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
+<<<<<<< HEAD
 # added paperclip gem
 gem "paperclip", "~> 4.3"
+=======
+>>>>>>> 4de3d659c3a35b7275cf41be9548daf0f653ed82
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'carrierwave' # Added this gem to allow images in our app
 
 group :production do
   gem 'rails_12factor'

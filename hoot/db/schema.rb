@@ -11,13 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20160129011006) do
+=======
+ActiveRecord::Schema.define(version: 20160128032207) do
+>>>>>>> 4de3d659c3a35b7275cf41be9548daf0f653ed82
 
   create_table "restaurants", force: :cascade do |t|
     t.string   "name"
     t.string   "address"
     t.string   "phone"
     t.string   "website"
+<<<<<<< HEAD
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
     t.string   "image"
@@ -25,6 +30,11 @@ ActiveRecord::Schema.define(version: 20160129011006) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+=======
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "image"
+>>>>>>> 4de3d659c3a35b7275cf41be9548daf0f653ed82
   end
 
 end
